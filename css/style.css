@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&family=Roboto:wght@300&display=swap");
+body {
+  background-color: black;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+/*Navbar and Footer*/
+.logo {
+  height: 100px;
+}
+
+nav {
+  font-size: 20px;
+}
+nav nav-item a {
+  color: #ffc107;
+}
+nav li a::selection {
+  background-color: #ffc107;
+  color: black;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 30px;
+  color: grey;
+}
+.redes i:hover {
+  transform: scale(1.7);
+  cursor: pointer;
+}
+
+.copy-footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.copy-footer p::selection {
+  background-color: #ffc107;
+  color: black;
+}
+
+/*Biografia*/
+.main-bio {
+  background-color: black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.main-bio .bio-img img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.main-bio .bio-img img::selection {
+  background-color: #ffc107;
+  color: black;
+}
+.main-bio .bio-text {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+}
+.main-bio .bio-text p::selection {
+  background-color: #ffc107;
+  color: black;
+}
+.main-bio .bio-text p::first-letter {
+  font-size: 31px;
+  color: #ffc107;
+}
+
+/*# sourceMappingURL=style.css.map */
